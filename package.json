@@ -6,7 +6,7 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "start": "concurrently \"npm run start --prefix server\" \"npm run start --prefix client\""
+    "start": "concurrently \"npm run start --prefix Server\" \"npm run dev --prefix Client\""
   },
   "dependencies": {
     "@nextui-org/react": "^2.4.2",
